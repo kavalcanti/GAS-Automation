@@ -1,4 +1,6 @@
 // This function allows for copies of files to be created based on sheets input.
+// Run it manually when required cells are filled or add an UI element. 
+// Could also be made to run onEdit, but that would require checking if all required cells have values.
 
 function createLinks() {
   //Dictionary with files to be copied 
